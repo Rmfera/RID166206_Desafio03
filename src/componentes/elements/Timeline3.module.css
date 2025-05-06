@@ -1,0 +1,160 @@
+.Timeline3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  /* Permite scroll horizontal */
+}
+
+.TimelineContainer {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: fit-content;
+  margin: 0 auto;
+  min-height: 500px;
+  /* Necessário para que top: 48% funcione corretamente */
+}
+
+/* Linha conectando os itens */
+.TimelineContainer::before {
+  content: "";
+  position: absolute;
+  top: 48.5%;
+  left: 150px;
+  right: 150px;
+  height: 12px;
+  background: white;
+  z-index: 0;
+}
+
+/* Cada item */
+.TimelineItem {
+  position: relative;
+  width: 300px;
+  text-align: center;
+  z-index: 1;
+}
+
+/* Bolinha */
+.TimelineItem::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32px;
+  height: 32px;
+  background: white;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* Ano */
+.TimelineItem h3 {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(50% - 90px);
+  /* 60px acima da linha */
+}
+
+/* Descrição */
+.TimelineItem p {
+  position: relative;
+  font-size: 18px;
+  color: white;
+  margin: 0;
+  width: 200px;
+  height: 100%;
+  top: calc(50% + 40px);
+  /* 40px abaixo da linha */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .Timeline3 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .TimelineContainer {
+    /* background-color: blue; */
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* espaço entre os itens */
+    padding: 40px 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .TimelineContainer::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    /* Move a linha para cima ou para baixo na vertical */
+    top: 8%;
+    transform: translateX(-50%);
+    width: 12px;
+    /* Aumenta o tamanho da linha */
+    height: 86%;
+    background: white;
+    z-index: 0;
+  }
+
+  .TimelineItem {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    /* Move a linha para a esquerda ou direita */
+    margin-left: 40%;
+  }
+
+  .TimelineItem h3,
+  .TimelineItem p {
+    position: static;
+    /* <-- remove absolute para funcionar com flex */
+    transform: none;
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+    width: 176px;
+  }
+
+  .TimelineItem h3 {
+    margin-right: 60px;
+    /* <-- move o ano para a esquerda */
+    font-weight: bold;
+    width: 60px;
+    text-align: right;
+  }
+
+  .TimelineItem p {
+    flex: 1;
+  }
+
+  .TimelineItem::before {
+    content: "";
+    position: absolute;
+    /* Move a bolinha para a esquerda ou direita */
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    background: white;
+    border-radius: 50%;
+    z-index: 1;
+  }
+}

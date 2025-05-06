@@ -1,0 +1,20 @@
+.AboutMe {
+   width: 100%;
+   margin: 0;
+}
+
+.AboutMe h2 {
+   margin: 0 0 0 5%;
+}
+
+.AboutMe section {
+   margin: 0;
+   /* O comando a seguir esconde a barra de rolagem */
+   overflow-y: hidden;
+}
+
+@media (max-width: 768px) {
+   .AboutMe h2 {
+      font-size: 2.5rem;
+   }
+}
