@@ -6,20 +6,18 @@ Este projeto é um portfólio moderno desenvolvido com **React** e **Vite**, foc
 
 ## 🚀 Funcionalidades Principais
 
-**Intro Dinâmica**: Tela de boas-vindas temporizada (3 segundos) que precede o conteúdo principal.
-**Estrutura Modular**: Organização por seções independentes (`Navbar`, `Presentation`, `Projects`, `AboutMe` e `Contacts`).
-**Desenvolvimento Otimizado**: Utilização do Vite para um ambiente de desenvolvimento ultra-rápido e Hot Module Replacement (HMR).
+- **Intro Dinâmica**: Tela de boas-vindas temporizada (3 segundos) que precede o conteúdo principal.
+- **Estrutura Modular**: Organização por seções independentes:
+  - `Navbar`: Menu de navegação superior.
+  - `Presentation`: Introdução e destaque inicial.
+  - `Projects`: Galeria de projetos desenvolvidos.
+  - `AboutMe`: Detalhes sobre minha trajetória e habilidades.
+  - `Contacts`: Canais para networking e comunicação.
+- **Desenvolvimento Otimizado**: Utilização do [Vite](https://vitejs.dev) para um ambiente de desenvolvimento ultra-rápido e Hot Module Replacement (HMR).
 
-## 🛠️ Tecnologias e Ferramentas
+## 🛠️ Tecnologias e Skillset
 
-- **Framework:** [![React]("https://skillicons.dev/icons?i=react")](https://skillicons.dev)
-- **Build Tool:** [![Vite]("https://skillicons.dev/icons?i=vite")]
-- **Linguagem:** [![JavaScript]("https://skillicons.dev/icons?i=js")]
-- **Estilização:** [![CSS3]("https://skillicons.dev/icons?i=css")]
-- **Padronização:** [![ESLint]("https://skillicons.dev/icons?i=eslint")](https://skillicons.dev)
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nodejs,c,java,postgres,sqlite,postman,git,github,vscode,windows)](https://skillicons.dev)  
-
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nodejs,c,java,postgres,sqlite,postman,git,github,vscode,windows)](https://skillicons.dev)
 
 ## 🏁 Como Executar o Projeto
 
