@@ -12,11 +12,11 @@ Este projeto é um portfólio moderno desenvolvido com **React** e **Vite**, foc
 
 ## 🛠️ Tecnologias e Ferramentas
 
-**Framework:** [React]("https://skillicons.dev/icons?i=react")
-**Build Tool:** [Vite]("https://skillicons.dev/icons?i=vite")
-**Linguagem:** [JavaScript (ES6+)]("https://skillicons.dev/icons?i=js")
-**Estilização:** [CSS3]("https://skillicons.dev/icons?i=css")
-**Padronização:** [ESLint]("https://skillicons.dev/icons?i=eslint")
+- **Framework:** [React]("https://skillicons.dev/icons?i=react")
+- **Build Tool:** [Vite]("https://skillicons.dev/icons?i=vite")
+- **Linguagem:** [JavaScript (ES6+)]("https://skillicons.dev/icons?i=js")
+- **Estilização:** [CSS3]("https://skillicons.dev/icons?i=css")
+- **Padronização:** [ESLint]("https://skillicons.dev/icons?i=eslint")
 
 
 ## 🏁 Como Executar o Projeto
