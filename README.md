@@ -6,17 +6,18 @@ Este projeto é um portfólio moderno desenvolvido com **React** e **Vite**, foc
 
 ## 🚀 Funcionalidades Principais
 
-- **Intro Dinâmica**: Tela de boas-vindas temporizada (3 segundos) que precede o conteúdo principal.
-- **Estrutura Modular**: Organização por seções independentes (`Navbar`, `Presentation`, `Projects`, `AboutMe` e `Contacts`).
-- **Desenvolvimento Otimizado**: Utilização do Vite para um ambiente de desenvolvimento ultra-rápido e Hot Module Replacement (HMR).
+**Intro Dinâmica**: Tela de boas-vindas temporizada (3 segundos) que precede o conteúdo principal.
+**Estrutura Modular**: Organização por seções independentes (`Navbar`, `Presentation`, `Projects`, `AboutMe` e `Contacts`).
+**Desenvolvimento Otimizado**: Utilização do Vite para um ambiente de desenvolvimento ultra-rápido e Hot Module Replacement (HMR).
 
 ## 🛠️ Tecnologias e Ferramentas
 
-![React](https://img.shields.io)
-![Vite](https://img.shields.io)
-![JavaScript](https://img.shields.io)
-![CSS3](https://img.shields.io)
-![ESLint](https://img.shields.io)
+**Framework:** [React](https://react.dev)
+**Build Tool:** [Vite](https://vitejs.dev)
+**Linguagem:** [JavaScript (ES6+)](https://developer.mozilla.org)
+**Estilização:** [CSS3](https://developer.mozilla.org)
+**Padronização:** [ESLint](https://eslint.org)
+
 
 ## 🏁 Como Executar o Projeto
 
