@@ -6,20 +6,18 @@ Este projeto é um portfólio moderno desenvolvido com **React** e **Vite**, foc
 
 ## 🚀 Funcionalidades Principais
 
-- **Intro Dinâmica**: Tela de boas-vindas temporizada (3 segundos) que precede o conteúdo principal.
-- **Estrutura Modular**: Organização por seções independentes:
-  - `Navbar`: Menu de navegação superior.
-  - `Presentation`: Introdução e destaque inicial.
-  - `Projects`: Galeria de projetos desenvolvidos.
-  - `AboutMe`: Detalhes sobre minha trajetória e habilidades.
-  - `Contacts`: Canais para networking e comunicação.
-- **Desenvolvimento Otimizado**: Utilização do Vite para um ambiente de desenvolvimento ultra-rápido.
+**Intro Dinâmica**: Tela de boas-vindas temporizada (3 segundos) que precede o conteúdo principal.
+**Estrutura Modular**: Organização por seções independentes (`Navbar`, `Presentation`, `Projects`, `AboutMe` e `Contacts`).
+**Desenvolvimento Otimizado**: Utilização do Vite para um ambiente de desenvolvimento ultra-rápido e Hot Module Replacement (HMR).
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias e Ferramentas
 
-Para este projeto, utilizei o seguinte conjunto de tecnologias:
+**Framework:** [React]("https://skillicons.dev/icons?i=react")
+**Build Tool:** [Vite]("https://skillicons.dev/icons?i=vite")
+**Linguagem:** [JavaScript (ES6+)]("https://skillicons.dev/icons?i=js")
+**Estilização:** [CSS3]("https://skillicons.dev/icons?i=css")
+**Padronização:** [ESLint]("https://skillicons.dev/icons?i=eslint")
 
-[![Minhas Habilidades](https://skillicons.dev)](https://skillicons.dev)
 
 ## 🏁 Como Executar o Projeto
 
