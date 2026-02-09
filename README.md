@@ -17,7 +17,7 @@ Este projeto é um portfólio moderno desenvolvido com **React** e **Vite**, foc
 
 ## 🛠️ Tecnologias e Skillset
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,vite,nodejs,eslint,git,github,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,vite,nodejs,git,github,vscode)](https://skillicons.dev)
 
 ## 🏁 Como Executar o Projeto
 
